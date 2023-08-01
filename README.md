@@ -110,14 +110,13 @@ Install jupyter notebook
 ```
 sudo pip install jupyter
 ```
-
-install pip for python3
 ```
+install pip for python3
 sudo apt install python3-pip
 ```
-run jupyter notebook
-```
 jupyter notebook
+```
+run jupyter notebook
 ```
 install python2.7 kernel
 ```
