@@ -8,6 +8,10 @@ Researcher at b10human.blogspot.com
 July 10, 2023
 
 
+<img src="Screenshot-1.png">
+
+
+
 ## Installation in Ubuntu 22.04
 Mapnik the core of geospatial visualization & processing is an SDK interface that links to different kinds of map data.
 Mapnik dependencies
