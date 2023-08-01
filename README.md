@@ -104,8 +104,10 @@ change line 41 in setup.py
     suffixes.insert(0, "-py%d%d"%(sys.version_info.major,sys.version_info.minor))
 Remove the '-py' from the above string.
 CRTL 'o' , ENTER, CRTL 'x' to save file and exit from nano.
+
 ```
 sudo python2.7 setup.py install
+```
 Install jupyter notebook
 ```
 sudo pip install jupyter
