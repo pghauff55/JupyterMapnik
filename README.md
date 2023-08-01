@@ -46,7 +46,7 @@ sudo ./bootstrap.sh --prefix=/usr/local/
 sudo ./b2 install
 ```
 ### Mapnik
-Download mapnik-3.1.0 source tarball and unpack into your working directory.
+Download mapnik-3.0.24 source tarball and unpack into your working directory.
 
 Install dependancies
 ```
@@ -85,9 +85,13 @@ sudo python2 get-pip.py
 ```
 
 ### Compiling Mapnik
+mapnik uses stdc++ version 11 not 14 in this instance.
+Proj4 should be install to use projections srs other than +proj=latlon 
+If  you install Proj4 or larger make sure the proj-data is installed.
+
 It may take some time to compile mapnik so time to make a coffee or tea and some biscuits.
 ```
-cd mapnik-3.1.0
+cd mapnik-3.0.24
 ./configure prefix=/usr/local/
 make
 sudo make install
