@@ -142,13 +142,16 @@ install python2.7 kernel
 python2.7 -m pip install ipykernel
 python2.7 -m ipykernel install --user
 ```
+
+## Notebook
+
 ### Download
 https://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip
 copy 'ne_110m_admin_0_countries' .shp .dbf and .shx to notebook dir.
 
-## Notebook
+### Insert into notebook
 In jupyter Home start a new python2 notebook.
-Insert into notebook
+
 ```
 import mapni
 from IPython.display import Image, display
