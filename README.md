@@ -91,6 +91,7 @@ If  you install Proj4 or larger make sure the proj-data is installed.
 
 It may take some time to compile mapnik so time to make a coffee or tea and some biscuits.
 ```
+export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
 cd mapnik-3.0.24
 ./configure prefix=/usr/local/
 make
