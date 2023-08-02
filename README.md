@@ -84,6 +84,18 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 ```
 
+### PROJ.4
+Download https://github.com/OrdnanceSurvey/proj.4
+For Cartographic Projections.
+```
+cd proj.4-master
+mkdir build
+cd build
+cmake ..
+cmake . build
+sudo cmake . build --target install
+```
+
 ### Compiling Mapnik
 mapnik uses stdc++ version 11 not 14 in this instance.
 Proj4 should be install to use projections srs other than +proj=latlon 
@@ -93,9 +105,9 @@ It may take some time to compile mapnik so time to make a coffee or tea and some
 ```
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
 cd mapnik-3.0.24
-./configure prefix=/usr/local/
-make
-sudo make install
+PYTHON=python2.7 ./configure prefix=/usr/local/
+make PYTHON=python2.7
+sudo make PYTHON=python2.7 install
 ```
 ### Setup Python Mapnik
 Download the v3.0.x version of python mapnik. The master version contains changes with boost libraries.
