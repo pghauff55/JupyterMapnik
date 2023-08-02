@@ -207,4 +207,4 @@ display(Image(filename='world.png'))
 #### Published by Pamela Hauff
 
 Researcher at b10human.blogspot.com
-
+Creative Commons Attribution 2023
