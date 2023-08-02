@@ -204,8 +204,7 @@ mapnik.render_to_file(m,'world.png', 'png')
 display(Image(filename='world.png'))
 ```
 
-Published by
-Pamela HauffStatus is online
-Pamela Hauff
+#### Published by Pamela Hauff
+
 Researcher at b10human.blogspot.com
-Published • 3w
+
