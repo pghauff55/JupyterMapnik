@@ -17,7 +17,7 @@ Mapnik the core of geospatial visualization & processing is an SDK interface tha
 Mapnik dependencies
 Mapnik-3.1 rely's upon boost-1.73 and python2.7.
 ## Install dependencies
-Python
+### Python 2.7
 Install python2.7 and link to 'python'. You may want to change this back to python3.8 afterwards.
 ```
 sudo apt install python2.7 python2-dev
@@ -45,10 +45,10 @@ sudo ./bootstrap.sh --prefix=/usr/local/
 ./b2 
 sudo ./b2 install
 ```
-### Mapnik
+## Mapnik
 Download mapnik-3.0.24 source tarball and unpack into your working directory.
 
-Install dependancies
+### Install dependancies
 ```
 sudo apt install libicu-dev \
     libxml2 libxml2-dev \
@@ -142,11 +142,11 @@ install python2.7 kernel
 python2.7 -m pip install ipykernel
 python2.7 -m ipykernel install --user
 ```
-#### Download
+### Download
 https://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip
 copy 'ne_110m_admin_0_countries' .shp .dbf and .shx to notebook dir.
 
-#### Notebook
+### Notebook
 In jupyter Home start a new python2 notebook.
 Insert into notebook
 ```
