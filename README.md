@@ -109,7 +109,7 @@ PYTHON=python2.7 ./configure prefix=/usr/local/
 make PYTHON=python2.7
 sudo make PYTHON=python2.7 install
 ```
-### Setup Python Mapnik
+## Setup Python Mapnik
 Download the v3.0.x version of python mapnik. The master version contains changes with boost libraries.
 
 Unzip and enter python-mapnik-3.0.x directory:
@@ -146,7 +146,7 @@ python2.7 -m ipykernel install --user
 https://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip
 copy 'ne_110m_admin_0_countries' .shp .dbf and .shx to notebook dir.
 
-### Notebook
+## Notebook
 In jupyter Home start a new python2 notebook.
 Insert into notebook
 ```
